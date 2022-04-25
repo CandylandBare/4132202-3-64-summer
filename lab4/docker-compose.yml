@@ -7,7 +7,7 @@ services:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: db_test
     ports:
-      - "5000:5000"
+      - "3306:3306"
   nginx:
     image: candylandbare/4132202-3-64-lab3:lastes
     ports:
